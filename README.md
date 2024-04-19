@@ -2,7 +2,7 @@
 
 
 <h2>Description</h2>
-Using the same data file i used in excel, this project visually analyse some important informations using Tableau. I created a dashboard that analysed different informations at a go.
+Using the same data file i used in excel, this project visually analyse some important informations using Tableau. I created a dashboard that visually analyse different informations at a go.
 <br />
 
 
