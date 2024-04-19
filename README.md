@@ -123,8 +123,10 @@ The duration of days was filtered between 1-5days </b>
  <p align="center">
  <img src="https://i.imgur.com/sC0QvZO.png" height="80%" width="80%" alt="Disk Sanitization Steps"
    <br />
+   <p align="initial">
+   * To create the dashboard i used the blank, horizontal containter and the text box </b> 
         <br />
-       <p align="initial">
+         <br />
        <h2>Note:</h2>
        * The CRM+SALES+OPPORTUNITY raw data file is uploaded above and the excel file for the Project after filtering, sorting and addition of new column is also uploaded above as Tableau Project Excel </b> 
        <br />
