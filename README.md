@@ -126,7 +126,7 @@ The duration of days was filtered between 1-5days </b>
         <br />
        <p align="initial">
        <h2>Note:</h2>
-       * The CRM+SALES+OPPORTUNITY data file is uploaded above and the excel file for the Project is also uploaded above as Tableau Project Excel </b> 
+       * The CRM+SALES+OPPORTUNITY raw data file is uploaded above and the excel file for the Project after filtering, sorting and addition of new column is also uploaded above as Tableau Project Excel </b> 
        <br />
     <h1>Tableau Project File</h1>
 
