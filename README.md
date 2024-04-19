@@ -126,7 +126,7 @@ The duration of days was filtered between 1-5days </b>
         <br />
        <p align="initial">
        <h2>Note:</h2>
-       * The excel file for the Project is uploaded above as Portfolio project 1</b>
+       * The CRM+SALES+OPPORTUNITY data file is uploaded above and the excel file for the Project is also uploaded above as Tableau Project Excel </b> 
        <br />
     <h1>Tableau Project File</h1>
 
