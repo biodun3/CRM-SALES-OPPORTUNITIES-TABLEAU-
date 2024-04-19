@@ -29,7 +29,10 @@ I created a chart to analyse each of the problem listed, then created a dashboar
 <br />
 1) Total close value for all sales agent in every account. To know how well each sales agents are performing under every account </b>
 <br />
+<br />
 <p align="center">
+  Sum(close value) is used as the column and Sales agent as row </b>
+  <br />
 <img src="https://i.imgur.com/obH1s8Z.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
   <br />
@@ -42,6 +45,8 @@ An account parameter was created to enable the selection of any account and get 
 2) Account with more than or equal to 30 lost opportunity in each region. To know the account that is having the most lost opportunity under every region  </b>
 <br />
 <p align="center">
+  Count(deal_stage) is used as the column and Account as row </b>
+  <br />
 <img src="https://i.imgur.com/gJWCLkn.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
   <br />
@@ -64,7 +69,9 @@ An account parameter was created to enable the selection of any account and get 
 3) How many won, lost, still engaging and prospecting opportunity under each account  </b>
 <br />
 <p align="center">
-  <img src="https://i.imgur.com/1XjUySn.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+  Bubble chart is used to visualize this information </b>
+ <br />
+ <img src="https://i.imgur.com/1XjUySn.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
   <br />
  <p align="initial">
 * For this chart i used the account parameter already created in the first chart to enable the selection of any Account and getting the number of won, lost, still engaging and prospecting opportunity back in return  </b>
@@ -72,20 +79,50 @@ An account parameter was created to enable the selection of any account and get 
 * I used colour to differentiate each deal_stages as shown in the right bottom corner of the image </b>
    <br />
     <br />
-    <p align="initial">
-    4)
- 
-
-  
-
-     
-   
-     <br />
-     <p align="initial">
-     <b> I then used all of these charts to create a single Dashboard </b>
-      <p align="center">
-       <img src="https://i.imgur.com/AuM7mZz.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+    4) Most successful Agent under each account </b>
+    <br />
+ <p align="center">
+ Sales agent is used as the column and count of deal stage as row </b>
+    <br />
+    <img src="https://i.imgur.com/VVJPj89.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
         <br />
+        <br /> 
+        The deal stage is filtered to only won because we are trying to get most successful sales agent </b>
+         <br />
+<img src="https://i.imgur.com/MF7VWQT.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+ <br />
+ <p align="initial">
+ * The account parameter created will also be used for this chart to select any account we want to see return of  </b>
+ <br />
+    <br />
+   5) Number of opportunity responded to between 1-5days for every account in each region  </b>
+<br />
+<br />
+For this problem i created an extra column as "duration(days)" in my excel sheet by subtracting the engage_date from the close_date </b>
+<br />
+<p align="center">
+ <img src="https://i.imgur.com/AyR8qS0.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+ <br />
+<br />
+Account is used as the column and count(duration(days)) as row </b>
+<br />
+ <img src="https://i.imgur.com/MKwwIEn.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+ <br />
+<br />
+The duration of days was filtered between 1-5days </b>
+<br />
+ <img src="https://i.imgur.com/BGD9HdM.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+   <br />
+ <p align="initial">
+ * The region parameter created will also be used for this chart to select any region we want to see return of  </b>
+ <br />
+ <br />
+<b> Then i created a single dashboard using all of these charts: </b>
+ <br />
+ <br />
+ <p align="center">
+ <img src="https://i.imgur.com/sC0QvZO.png" height="80%" width="80%" alt="Disk Sanitization Steps"
+   <br />
         <br />
        <p align="initial">
        <h2>Note:</h2>
