@@ -33,12 +33,12 @@ I created a chart to analyse each of the problem listed, then created a dashboar
 <p align="center">
   Sum(close value) is used as the column and Sales agent as row </b>
   <br />
-<img src="https://i.imgur.com/obH1s8Z.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/obH1s8Z.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 <br />
   <br />
 An account parameter was created to enable the selection of any account and get the total close value for sales agent of that account  </b>
 <br />
-<img src="https://i.imgur.com/IEA39jR.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/IEA39jR.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 <p align="initial">
@@ -47,22 +47,22 @@ An account parameter was created to enable the selection of any account and get 
 <p align="center">
   Count(deal_stage) is used as the column and Account as row </b>
   <br />
-<img src="https://i.imgur.com/gJWCLkn.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/gJWCLkn.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 <br />
   <br />
   A region parameter is created to select each region and get return for the region selected </b>
   <br />
-  <img src="https://i.imgur.com/7t0Gti0.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+  <img src="https://i.imgur.com/7t0Gti0.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
    <br />
    <br />
    Column "deal_stage" is filtered to only lost because we only want to get result for the lost opportunity  </b>
       <br />
-   <img src="https://i.imgur.com/rm79O9N.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+   <img src="https://i.imgur.com/rm79O9N.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
    <br />
    <br />
    Account is filtered into all account with atleast 30 lost opportunity </b>
    <br />
-   <img src="https://i.imgur.com/YilnWPa.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+   <img src="https://i.imgur.com/YilnWPa.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
     <br />
      <br />
  <p align="initial">
@@ -71,7 +71,7 @@ An account parameter was created to enable the selection of any account and get 
 <p align="center">
   Bubble chart is used to visualize this information </b>
  <br />
- <img src="https://i.imgur.com/1XjUySn.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+ <img src="https://i.imgur.com/1XjUySn.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
   <br />
  <p align="initial">
 * For this chart i used the account parameter already created in the first chart to enable the selection of any Account and getting the number of won, lost, still engaging and prospecting opportunity back in return  </b>
@@ -84,12 +84,12 @@ An account parameter was created to enable the selection of any account and get 
  <p align="center">
  Sales agent is used as the column and count of deal stage as row </b>
     <br />
-    <img src="https://i.imgur.com/VVJPj89.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+    <img src="https://i.imgur.com/VVJPj89.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
         <br />
         <br /> 
         The deal stage is filtered to only won because we are trying to get most successful sales agent </b>
          <br />
-<img src="https://i.imgur.com/MF7VWQT.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/MF7VWQT.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
  <br />
  <p align="initial">
  * The account parameter created will also be used for this chart to select any account we want to see return of  </b>
@@ -101,17 +101,17 @@ An account parameter was created to enable the selection of any account and get 
 For this problem i created an extra column as "duration(days)" in my excel sheet by subtracting the engage_date from the close_date </b>
 <br />
 <p align="center">
- <img src="https://i.imgur.com/AyR8qS0.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+ <img src="https://i.imgur.com/AyR8qS0.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
  <br />
 <br />
 Account is used as the column and count(duration(days)) as row </b>
 <br />
- <img src="https://i.imgur.com/MKwwIEn.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+ <img src="https://i.imgur.com/MKwwIEn.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
  <br />
 <br />
 The duration of days was filtered between 1-5days </b>
 <br />
- <img src="https://i.imgur.com/BGD9HdM.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+ <img src="https://i.imgur.com/BGD9HdM.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
    <br />
  <p align="initial">
  * The region parameter created will also be used for this chart to select any region we want to see return of  </b>
@@ -121,7 +121,7 @@ The duration of days was filtered between 1-5days </b>
  <br />
  <br />
  <p align="center">
- <img src="https://i.imgur.com/sC0QvZO.png" height="80%" width="80%" alt="Disk Sanitization Steps"
+ <img src="https://i.imgur.com/sC0QvZO.png" height="100%" width="100%" alt="Disk Sanitization Steps"
    <br />
    <p align="initial">
    * To create the dashboard i used the blank, horizontal containter and the text box </b> 
